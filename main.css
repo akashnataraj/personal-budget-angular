@@ -7,22 +7,34 @@ body {
     font-family: Tahoma, Arial;
 }
 
-div.menu {
+table{
+    table-layout: fixed;
+    display: inline-block;
+    width: 800px;
+}
+
+td {
+    padding:20px;
+    text-align: left;
+  }
+  
+
+nav {
     width: 100%;
     background-color: #4d5791;
     height: 44px;
     padding: 0 40px;
 }
 
-div.menu ul,
-div.menu ul li {
+nav ul,
+nav ul li {
     margin: 0;
     padding: 0 ;
     list-style: none;
     display: inline-block;
 }
 
-div.menu ul li a {
+nav ul li a {
     display: block;
     padding: 0 20px;
     line-height: 44px;
@@ -32,7 +44,7 @@ div.menu ul li a {
     margin: 0;
 }
 
-div.menu ul li a:hover  {
+nav ul li a:hover  {
     background-color: white;
     color: #4d5791;
 }
@@ -68,12 +80,7 @@ div.hero h2 {
     width: 100%;
 }
 
-.page-area {
-    max-width: 768px;
-    display: inline-block;
-}
-
-.bottom {
+footer {
     height: 50px;
     background-color: #b4c6f0;
     padding: 40px;

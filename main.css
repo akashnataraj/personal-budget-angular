@@ -49,10 +49,15 @@ nav ul li a:hover  {
     color: #4d5791;
 }
 
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
 div.hero {
     height: 350px;
     background-color: #b4c6f0;
-    background-image: url('bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center bottom;

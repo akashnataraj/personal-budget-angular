@@ -5,7 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This is an SEO Change -->
     <title>Login</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="Login.css" rel="stylesheet" />
 </head>
 <body>
-    <h4>Login</h4>
+<!-- This is a Semantic HTML Change -->
+<section class="login-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 login-sec">
+                <h2 class="text-center">Login</h2>
+                <div>
+                    <div class="form-group">
+                        <!-- This is an A11y Change -->
+                        <input id="username" type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <!-- This is an A11y Change -->
+                        <input id="password" type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                        <!-- This is an A11y Change -->
+                        <input type="button" class="btn btn-login float-right" value="button" />
+                    </div>
+                </div>
+                <!-- This is an A11y Change -->
+                <div class="copy-text"> Don't have an account! <a href="#"> Sign Up Here </a></div>
+            </div>
+            <div class="col-md-8 banner-sec">
+                
+            </div>
+        </div>
+    </div>
+</section>
 </body>

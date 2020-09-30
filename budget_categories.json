@@ -6,23 +6,23 @@
         },
         {
             "title": "Rent",
-            "budget": 380
+            "budget": 300
         },
         {
             "title": "Grocery",
-            "budget": 30
+            "budget": 40
         },
         {
             "title": "Beer",
-            "budget": 10
-        },
-        {
-            "title": "Mobile Recharge",
             "budget": 20
         },
         {
+            "title": "Laundry",
+            "budget": 40
+        },
+        {
             "title": "Gas",
-            "budget": 5
+            "budget": 30
         },
         {
             "title": "Clothes",

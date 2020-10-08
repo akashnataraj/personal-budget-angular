@@ -1,13 +1,11 @@
-const { Console } = require('console');
+//Budget API
+
 const express = require('express');
+const cors = require('cors');
 const app  = express();
 const port = 3000;
 
-app.use('/',express.static('public'));
-
-app.get('/hello',(req,res) => {
-    res.send('Hello World');
-});
+app.use(cors());
 
 app.get('/budget',(req,res) => {
     var fs = require('fs');

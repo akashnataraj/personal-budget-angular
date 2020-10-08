@@ -220,7 +220,7 @@
       
       function createChartD3() {
         var data = d3dataSource;
-        var svg = d3.select("svg").data([data]).append("g");
+        var svg = d3.select("svg").append("g");
 
         svg.append("g").attr("class", "slices");
         svg.append("g").attr("class", "labels");

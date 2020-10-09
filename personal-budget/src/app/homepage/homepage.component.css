@@ -1,0 +1,10 @@
+table {
+  table-layout: fixed;
+  display: inline-block;
+  width: 800px;
+}
+
+td {
+  padding: 20px;
+  text-align: left;
+}

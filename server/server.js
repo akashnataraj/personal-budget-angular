@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get('/budget',(req,res) => {
     var fs = require('fs');
-    var budget = JSON.parse(fs.readFileSync('../personal-budget/budget_categories.json', 'utf8'));
+    var budget = JSON.parse(fs.readFileSync('../budget_categories.json', 'utf8'));
     res.json(budget);
 });
 
